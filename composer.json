@@ -1,10 +1,20 @@
 {
-    "name": "newism/twig-extensions-bundle",
+    "name": "newism/nsm-twig-extensions-bundle",
     "type": "symfony-bundle",
-    "keywords": ["symfony2","twig","extensions"],
+    "keywords": ["symfony2", "twig", "extensions"],
     "homepage": "https://github.com/newism/NSMTwigExtensionsBundle",
-    "authors": [{"name": "Leevi Graham", "email": "info@leevigraham.com"}],
-    "require": {"php":">=5.3.2", "symfony/twig-bundle": "2.0.*"},
-    "autoload": {"psr-0":{"NSM\\Bundle\\TwigExtensionsBundle": ""}},
+    "authors": [{
+        "name": "Leevi Graham",
+        "email": "info@leevigraham.com"
+    }],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/twig-bundle": "2.0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "NSM\\Bundle\\TwigExtensionsBundle": ""
+        }
+    },
     "target-dir": "NSM/Bundle/TwigExtensionsBundle"
 }
