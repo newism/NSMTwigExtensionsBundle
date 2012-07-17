@@ -4,11 +4,13 @@
     "keywords": ["symfony2", "twig", "extensions"],
     "homepage": "https://github.com/newism/NSMTwigExtensionsBundle",
     "authors": [{
-        "name": "Leevi Graham",
-        "email": "info@leevigraham.com"
+        "name": "Newism Pty Ltd",
+        "homepage": "http://newism.com.au"
+    }, {
+        "name": "Symfony Community",
+        "homepage": "https://github.com/newism/NSMTwigExtensionsBundle/contributors"
     }],
     "require": {
-        "php": ">=5.3.2",
         "symfony/framework-bundle": "2.*",
         "symfony/twig-bundle": "2.*"
     },
