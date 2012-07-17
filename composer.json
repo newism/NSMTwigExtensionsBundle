@@ -1,5 +1,5 @@
 {
-    "name": "newism/nsm-twig-extensions-bundle",
+    "name": "newism/twig-extensions-bundle",
     "type": "symfony-bundle",
     "keywords": ["symfony2", "twig", "extensions"],
     "homepage": "https://github.com/newism/NSMTwigExtensionsBundle",
@@ -16,5 +16,10 @@
             "NSM\\Bundle\\TwigExtensionsBundle": ""
         }
     },
-    "target-dir": "NSM/Bundle/TwigExtensionsBundle"
+    "target-dir": "NSM/Bundle/TwigExtensionsBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "*"
+        }
+    }
 }
