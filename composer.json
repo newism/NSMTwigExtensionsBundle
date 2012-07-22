@@ -1,5 +1,5 @@
 {
-    "name": "newism/twig-extensions-bundle",
+    "name": "newism/nsm-twig-extensions-bundle",
     "type": "symfony-bundle",
     "keywords": ["symfony2", "twig", "extensions"],
     "homepage": "https://github.com/newism/NSMTwigExtensionsBundle",
