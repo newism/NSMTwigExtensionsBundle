@@ -1,6 +1,6 @@
 <?php
 
-namespace NSM\Bundle\TwigExtensionsBundle;
+namespace NSM\Bundle\NSMTwigExtensionsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
