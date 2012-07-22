@@ -13,7 +13,7 @@ Add NSMTwigExtensionsBundle in your composer.json:
 ```js
 {
     "require": {
-        "newism/twig-extensions-bundle": "*"
+        "newism/nsm-twig-extensions-bundle": "*"
     }
 }
 ```
@@ -26,7 +26,7 @@ $ php composer.phar update newism/twig-extensions-bundle
 
 Composer will install the bundle to your project's `vendor/bundles/NSM` directory.
 
-## Add TwigExtensionsBundle to your application kernel
+## Add NSMTwigExtensionsBundle to your application kernel
 
 ``` php
 <?php
@@ -36,7 +36,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new NSM\Bundle\TwigExtensionsBundle\NSMTwigExtensionsBundle()
+        new NSM\Bundle\NSMTwigExtensionsBundle\NSMTwigExtensionsBundle()
     );
 }
 ```
